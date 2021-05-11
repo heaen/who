@@ -1,4 +1,4 @@
-# who
+# PROJECT -- who
 an attempt to create a fun CV
 
 ## Installation

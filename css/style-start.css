@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600;700&display=swap');
+/*mobile tablet desktop*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  cursor: default;
+}
+
+#section0 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  background: #000000;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.125rem;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875rem;
+  margin-bottom: 25px;
+}
+
+.arrow-right {
+  transform: rotate(90deg);
+  display: inline-block;
+  position: relative;
+  left: 400px;
+  top: 120px;
+}
+
+.arrow-right:hover {
+  left: 420px;
+  cursor: crosshair;
+}
+
+.section {
+  min-height: 400px;
+  position: relative;
+  text-align: center;
+}
+
+.sectionSmall {
+  min-height: 100px;
+  position: relative;
+  text-align: center;
+}
+
+.sectionMedium {
+  min-height: 250px;
+  position: relative;
+  text-align: center;
+}
+
+.sectionLarge {
+  min-height: 800px;
+  position: relative;
+  text-align: center;
+}
+
+p {
+  font-family: 'Monda', sans-serif;
+}
+
+.text-wr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mottoLine1, .mottoLine2, .mottoLine3, .mottoLine4, .mottoLine5 {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  line-height: 2;
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  padding-left: 300px;
+  padding-top: 5px;
+  font-size: 1.563rem;
+  font-style: normal;
+  z-index: 1;
+}
+
+.mottoLine2 {
+  top: 50px;
+  z-index: 2;
+}
+
+.mottoLine3 {
+  top: 100px;
+  z-index: 3;
+}
+
+.mottoLine4 {
+  top: 100px;
+  left: 500px;
+  z-index: 4;
+}
+
+.mottoLine5 {
+  top: 150px;
+  z-index: 5;
+}
+
+.box {
+  fill: none;
+  stroke: #7000FF;
+  stroke-width: 4px;
+  z-index: 1;
+}
+
+.started {
+  white-space: nowrap;
+  -webkit-animation: move 1.2s ease-out infinite;
+  animation: move 1.2s ease-out infinite alternate;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  line-height: 2;
+  position: absolute;
+  top: 0px;
+  left: 250px;
+  padding-left: 300px;
+  padding-top: 5px;
+  font-size: 1.563rem;
+  font-style: normal;
+  z-index: 5;
+}
+
+@-webkit-keyframes move {
+  from {
+    left: 240px;
+  }
+  to {
+    left: 400px;
+  }
+}
+
+@keyframes move {
+  from {
+    left: 240px;
+  }
+  to {
+    left: 400px;
+  }
+}

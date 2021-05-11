@@ -1,0 +1,48 @@
+body {
+    cursor: default;
+}
+
+.nav {
+    width: 100%;
+    top: 20px;
+    padding-left: 0px;
+    display: flex;
+    align-items: left;
+    z-index: 9;
+    position: sticky;
+}
+
+.nav a {
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Monda', sans-serif;
+    font-size: 1.25rem;
+    padding: 15px;
+    cursor: w-resize;
+}
+
+#box {
+    fill: none;
+    stroke: #FF4301;
+    stroke-width: 4px;
+    z-index: 8;
+}
+
+#cminus {
+    position: absolute;
+    fill: #ffffff;
+    z-index: 9;
+    transform: rotate(45deg);
+}
+
+#cplus {
+    position: absolute;
+    fill: #ffffff;
+    z-index: 9;
+    transform: rotate(45deg);
+}

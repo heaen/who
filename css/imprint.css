@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;600;700&display=swap');
+/*mobile*/
+
+body {
+    background-color: #000000;
+    cursor: default;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #ffffff;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.625rem;
+    text-align: left;
+    line-height: 2;
+    margin-left: 70px;
+    margin-right: 30px;
+    color: #ffffff;
+}
+
+.infos {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.625rem;
+    text-align: center;
+    line-height: 1.15;
+    color: #ffffff;
+}
+
+.sectionXSmall {
+    min-height: 20px;
+    position: relative;
+    text-align: center;
+    margin: 0;
+}
+
+.sectionSmall {
+    min-height: 100px;
+    position: relative;
+    text-align: center;
+    margin: 0;
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 400px) {
+    body {
+        background-color: #000000;
+        cursor: default;
+    }
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.125rem;
+        text-transform: uppercase;
+        text-align: left;
+        margin-left: 50px;
+        margin-right: 50px;
+        color: #ffffff;
+    }
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 0.813rem;
+        text-align: left;
+        line-height: 2;
+        margin-left: 100px;
+        margin-right: 100px;
+        color: #ffffff;
+    }
+    .infos {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 0.813rem;
+        text-align: center;
+        line-height: 1.15;
+        color: #ffffff;
+    }
+    .sectionXSmall {
+        min-height: 20px;
+        position: relative;
+        text-align: center;
+        margin: 0;
+    }
+    .sectionSmall {
+        min-height: 100px;
+        position: relative;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+/*Desktop*/
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: #000000;
+    }
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        text-align: left;
+        margin-left: 150px;
+        margin-right: 100px;
+        color: #ffffff;
+    }
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 1rem;
+        text-align: left;
+        line-height: 2;
+        margin-left: 200px;
+        margin-right: 200px;
+        color: #ffffff;
+    }
+    .infos {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.15;
+        color: #ffffff;
+    }
+    .sectionXSmall {
+        min-height: 20px;
+        position: relative;
+        text-align: center;
+        margin: 0;
+    }
+    .sectionSmall {
+        min-height: 100px;
+        position: relative;
+        text-align: center;
+        margin: 0;
+    }
+}

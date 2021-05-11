@@ -1,0 +1,70 @@
+#sectionFooterA, #sectionFooterB {
+    background: #000000;
+    /*
+    background: #7000FF;
+    background: linear-gradient( 180deg, #000000, #7000FF);*/
+    /*#1b262c;
+    #ea6227;
+    #7000FF*/
+}
+
+.prototyp {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    line-height: 3;
+    color: #ffffff;
+    font-size: 0.938rem;
+    display: inline-flex;
+    cursor: help;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+
+.email {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    line-height: 3;
+    color: #ffffff;
+    font-size: 0.938rem;
+    display: inline-flex;
+    cursor: context-menu;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+
+.imprint {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    line-height: 3;
+    color: #ffffff;
+    font-size: 0.938rem;
+    display: inline-flex;
+    cursor: help;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+
+.socialNetwork {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    line-height: 10;
+    color: #ffffff;
+    font-size: 0.938rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: crosshair;
+}
+
+.copyright {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 2;
+    color: #ffffff;
+    font-size: 0.75rem;
+}

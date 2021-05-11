@@ -1,0 +1,73 @@
+.fav-colors {
+    color: #ffffff;
+    background: #000000;
+    font-size: 1rem;
+    border-collapse: collapse;
+    margin-left: 300px;
+}
+
+.fav-colors thead th {
+    color: #ffffff;
+    background: #000000;
+    padding: 1rem;
+}
+
+.fav-colors th, .fav-colors td {
+    padding: 3rem 2rem;
+    border: 1px solid #FFFFFF;
+}
+
+#color1 {
+    background: #000000;
+}
+
+#color2 {
+    background: #7000FF;
+}
+
+#color3 {
+    background: #810000;
+}
+
+#color4 {
+    background: #FF4301;
+}
+
+#color5 {
+    background: #ffd31d;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555555;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: -200%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+tr.no-border td {
+    border: 0;
+}
+
+tr.no-border th {
+    border: 0;
+}

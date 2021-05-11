@@ -1,0 +1,49 @@
+.earth {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    width: 140%;
+    cursor: default;
+    margin-top: 100px;
+}
+
+.container:hover .image {
+    filter: blur(4px);
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: default;
+}
+
+.text {
+    color: white;
+    font-size: 1.25rem;
+    line-height: 2;
+    position: absolute;
+    position: center;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    display: inline;
+}
